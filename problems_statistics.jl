@@ -106,7 +106,7 @@ function plot_dist(scores)
 		normalize=:probability,
 		xtick=false, ytick=false, cbar=false, 
 		size=(1000, 150), legend=false,
-		bins=range(start=0, step=101/14, length=15)
+		bins=0.0:101/15:101.0
 	)
 end
 
